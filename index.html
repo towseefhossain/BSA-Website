@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UW BSA</title>
+  <link rel="shortcut icon" type="image/png" href="https://saquibshahzad.github.io/BSA-Website/images/tiger-logo.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://saquibshahzad.github.io/BSA-Website/W3.CSS Template_files/w3.css">
+<link rel="stylesheet" href="https://saquibshahzad.github.io/BSA-Website/W3.CSS Template_files/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Past event 1</a>
+  <a href="#" class="w3-bar-item w3-button">Past event 2</a>
+  <a href="#" class="w3-bar-item w3-button">Past event 3</a>
+  <a href="#" class="w3-bar-item w3-button">Past event 4</a>
+  <a href="#" class="w3-bar-item w3-button">Past event 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#events" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Events</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  <a href="https://uwloobsa.wordpress.com" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Blog</a>
+  <a class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="w3-margin-left w3-theme-d2"></i>Donate</a>
+   
+    <!-- <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+    </div>-->
+  </div> 
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#events" class="w3-bar-item w3-button">Events</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="https://saquibshahzad.github.io/BSA-Website/images/Poster copy.jpg" alt="boat" style="width:100%;height:100%;">
+ <!-- <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS"><a href="https://www.facebook.com/UWLOOBSA/" target="_blank"> University of Waterloo Bengali Student Association</a></button>
+  </div> -->
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>Executive Board</h2>
+<p>Meet the execs for Winter 2019!</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <a href="https://www.facebook.com/nnafee"><img src="https://saquibshahzad.github.io/BSA-Website/images/Naymul Hossain Nafee.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity"></a>
+  <h3>Naymul Hossain Nafee</h3>
+  <p>President</p>
+</div>
+  
+<div class="w3-quarter">
+  <a href="https://www.facebook.com/ksmahmoo"><img src="https://saquibshahzad.github.io/BSA-Website/images/Sajid Mahmood.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity"></a>
+  <h3>Sajid Mahmood</h3>
+  <p>Vice President</p>
+</div>
+
+<div class="w3-quarter">
+  <a href="https://www.facebook.com/mubsh.kazi"><img src="https://saquibshahzad.github.io/BSA-Website/images/Kazi Mubasher Ali.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity"></a>
+  <h3>Kazi Mubasher Ali</h3>
+  <p>Secretary</p>
+</div>
+
+<div class="w3-quarter">
+  <a href="https://www.facebook.com/irteza.arif23"><img src="https://saquibshahzad.github.io/BSA-Website/images/Irteza Ali Shanto.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity"></a>
+  <h3>Irteza Arif</h3>
+  <p>Treasurer</p>
+</div>
+  
+<div class="w3-quarter">
+  <a href="https://www.facebook.com/fairuz.hoque.12"><img src="https://saquibshahzad.github.io/BSA-Website/images/Fairuz Hoque.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity"></a>
+  <h3>Fairuz Hoque</h3>
+  <p>Logistics Co-ordinator</p>
+</div>
+
+<div class="w3-quarter">
+  <a href="https://www.facebook.com/dpsgoetheteddy"><img src="https://saquibshahzad.github.io/BSA-Website/images/Towseef Hossain.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity"></a>
+  <h3>Towseef Hossain</h3>
+  <p>Graphic Designer</p>
+</div>
+  
+<div class="w3-quarter">
+  <a href="https://www.facebook.com/shamanta.haider"><img src="https://saquibshahzad.github.io/BSA-Website/images/Shamanta Haider.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity"></a>
+  <h3>Shamanta Haider</h3>
+  <p>Public Relations</p>
+</div>
+  
+                                                                                                       
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="events">
+
+<div class="w3-quarter">
+<h2>Our Events</h2>
+<p>We try to host multiple events per term to bring the community together. In the past, we have hosted events for Crying Hour, Henna Days and Meet and Greets. Do follow our facebook page to keep up with all the events we will be hosting in the future!</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <a href="https://www.facebook.com/events/230335384567747/"><img src="https://saquibshahzad.github.io/BSA-Website/images/Meet and Greet.jpg"  alt="Snow" style="width:100%"></a>
+  <div class="w3-container">
+  <h3>BSA Winter 2019 Meet and Greet</h3>
+  <h4>24 January 2019</h4>
+  <p>Come and join us for our first event of the term and meet your execs for the term. We are very excited to share with you our plans for the next three months. Come and bring your friends for a night of chai, snacks and good Bengali music. </p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <a href="https://www.facebook.com/events/2262339890680673/"><img src="https://saquibshahzad.github.io/BSA-Website/images/Bengali Student Assocciation presents.png" alt="Lights" style="width:100%"></a>
+  <div class="w3-container">
+  <h3>Crying Hour</h3>
+  <h4>28th February 2019</h4>
+  <p>Are you stressed out by the monster of a schedule handed to you by the university? Do you sometimes feel like you’re drowning in your overpriced textbooks? Do you want to cry about your midterms, and life in general?
+    Then boy, oh, boy, do we have the event for you! Come to UWaterloo BSA’s Crying Hour! We have FIFA, board games, copious amounts of desi snacks accompanied by students’ misery and tears. For only $5, you can join your 
+    fellow students in crying and complaining about life.  </p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <a href="https://goo.gl/forms/hXW3KFnHkZirllt02"><img src="https://saquibshahzad.github.io/BSA-Website/images/University of Waterloo Bengali Student Association.png"  alt="Mountains" style="width:100%"></a>
+  <div class="w3-container">
+  <h3>Spring 2019 Exec Elections</h3>
+  <h4>March 21st 2019</h4>
+   <p>HEY HEY BSA!! It's time to pick our next term's exec members. Please take a moment to fill out this form and apply to be a part of the Spring 2019 BSA team. We look forward to hearing from you. The deadline to submit a form is Thursday, March 21st, 2019 @ 5pm.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+  
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="events">
+
+  
+<!--Events Off Campus-->
+<div class="w3-quarter">
+<h2>Events Off Campus</h2>
+<p> We'd highly recommend checking these events out as well.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <a href="https://www.facebook.com/events/782887978745315/"></a>
+  <div class="w3-container">
+  <h3 href="https://www.facebook.com/events/782887978745315/">Spondon 2019</h3>
+  <h4>15 February 2019</h4>
+  <p>Join us on February 15, 2019 at 6:00 PM for an unforgettable experience of the biggest Bengali formal in the GTA. Tickets are set at a regular pric of $34 but YOU CAN GET IT FOR $32 by mentioning BSAR OR YBSA on social media. </p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <a href="https://www.facebook.com/events/2287040801617901/"></a>
+  <div class="w3-container">
+  <h3 href="https://www.facebook.com/events/2287040801617901/">পহেলা বৈশাখ ১৪২৬ (Bengali New Year Celebration)</h3>
+  <h4>20th April 2019</h4>
+  <p>Experience a festive evening packed with entertainment, songs, dances, stalls having mouthwatering ‘tok-jhal-misthi’ food, different traditional items like sarees, jewelry and much more! If anyone wants to perform or volunteer for the event, let us know on the Facebook page.</p>
+  </div>
+  </div>
+</div>
+
+<!--<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <a href="https://www.facebook.com/events/539857193125542/"><img src="https://saquibshahzad.github.io/BSA-Website/images/Chaa Nashta Night.jpg"  alt="Mountains" style="width:100%"></a>
+  <div class="w3-container">
+  <h3>Chaa and Nashta Night</h3>
+  <h4>3rd October 2018</h4>
+   <p>We're back and here to stay! Come join the University of Waterloo's Bengali Student Association for their first event of the term, CHAA & NASHTA NIGHT! Join us for tea, snacks, games and Bengali music! Meet some new people and get to know your execs! :) See you there!</p>
+  </div>
+  </div>
+</div>-->
+
+</div>  
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>Swing by for a cup of coffee, or whatever.</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> University of Waterloo, 200 University Ave West, Waterloo</p>
+      <p href=" https://www.facebook.com/uwloobsa"><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i> Send a message on Facebook</p>
+    </div>
+    <div class="w3-col m7">
+      <!-- <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>Sign up for our newsletter!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>-->
+      
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2dbHAkGg9vtU4GwE8ZrO4Tlyez95vM8IHe_DNfJNilwQULw/viewform?embedded=true" width="100%" height="450" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/UWLOOBSA/" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/UWLOOBSA/" title="Instagram"><i class="fa fa-instagram"></i></a>
+ <p>Powered by <a href="https://www.facebook.com/md.saquib.shahzad" target="_blank"> Saquib Shahzad</a>'s unrestrained fear of unemployment and <a href="https://www.facebook.com/dpsgoetheteddy">Towseef Hossain</a>'s chronic boredom at 2 am.</p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
